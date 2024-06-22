@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import AppClass from './AppClass';
 import AppArrow from './AppArrow';
 import Greetings from './Greetings/Greetings';
+import Counter from './Counter/Counter';
 
 
 
@@ -17,8 +18,9 @@ root.render(
     <AppArrow /> */}
 
     {/* <AppClass /> */}
-    <Greetings name="Bartosz" age="40" />
-    <Greetings name="Jan" />
+    {/* <Greetings name="Bartosz" age="40" />
+    <Greetings name="Jan" /> */}
+    <Counter />
   </React.StrictMode>
 );
 
