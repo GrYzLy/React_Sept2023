@@ -7,6 +7,7 @@ import AppClass from './AppClass';
 import AppArrow from './AppArrow';
 import Greetings from './Greetings/Greetings';
 import Counter from './Counter/Counter';
+import LoginForm from './LoginForm/LoginForm';
 
 
 
@@ -20,7 +21,9 @@ root.render(
     {/* <AppClass /> */}
     {/* <Greetings name="Bartosz" age="40" />
     <Greetings name="Jan" /> */}
-    <Counter />
+    {/* <Counter /> */}
+    <LoginForm />
+    
   </React.StrictMode>
 );
 
