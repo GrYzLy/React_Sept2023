@@ -1,14 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
+import AppClass from './AppClass';
+import AppArrow from './AppArrow';
+import Greetings from './Greetings/Greetings';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <App />
+    {/* <App />
+    <App2 /
+    <AppArrow /> */}
+
+    {/* <AppClass /> */}
+    <Greetings name="Bartosz" age="40" />
+    <Greetings name="Jan" />
   </React.StrictMode>
 );
 

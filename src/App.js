@@ -22,4 +22,13 @@ function App() {
   );
 }
 
-export default App;
+function App2() {
+  return (
+    <div className="App">
+      <p>App2</p>
+    </div>
+  );
+}
+
+
+export default App2;
