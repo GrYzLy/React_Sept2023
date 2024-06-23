@@ -12,6 +12,7 @@ import SecretMessage from './SecretMessage/SecretMessage';
 import Lifecycle from './Lifecycle/Lifecycle';
 import Quiz from './Quiz/Quiz';
 import RouterReact from './Routing/RouterReact';
+import FetchApi from './FetchApi/FetchApi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,7 +29,8 @@ root.render(
     {/* <SecretMessage /> */}
     {/* <Lifecycle /> */}
     {/* <Quiz /> */}
-    <RouterReact />
+    {/* <RouterReact /> */}
+    <FetchApi />
 
 
   </React.StrictMode>
