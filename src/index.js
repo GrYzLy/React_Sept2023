@@ -9,6 +9,7 @@ import Greetings from './Greetings/Greetings';
 import Counter from './Counter/Counter';
 import LoginForm from './LoginForm/LoginForm';
 import SecretMessage from './SecretMessage/SecretMessage';
+import Lifecycle from './Lifecycle/Lifecycle';
 
 
 
@@ -24,7 +25,8 @@ root.render(
     <Greetings name="Jan" /> */}
     {/* <Counter /> */}
     {/* <LoginForm /> */}
-    <SecretMessage />
+    {/* <SecretMessage /> */}
+    <Lifecycle />
 
   </React.StrictMode>
 );
