@@ -13,6 +13,8 @@ import Lifecycle from './Lifecycle/Lifecycle';
 import Quiz from './Quiz/Quiz';
 import RouterReact from './Routing/RouterReact';
 import FetchApi from './FetchApi/FetchApi';
+import CounterHook from './Counter/CounterHook';
+import FetchApiHook from './FetchApi/FetchApiHook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,7 +32,9 @@ root.render(
     {/* <Lifecycle /> */}
     {/* <Quiz /> */}
     {/* <RouterReact /> */}
-    <FetchApi />
+    {/* <FetchApi /> */}
+    {/* <CounterHook /> */}
+    <FetchApiHook />
 
 
   </React.StrictMode>
