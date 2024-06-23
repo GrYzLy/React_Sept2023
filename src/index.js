@@ -10,7 +10,7 @@ import Counter from './Counter/Counter';
 import LoginForm from './LoginForm/LoginForm';
 import SecretMessage from './SecretMessage/SecretMessage';
 import Lifecycle from './Lifecycle/Lifecycle';
-
+import Quiz from './Quiz/Quiz';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,7 +26,8 @@ root.render(
     {/* <Counter /> */}
     {/* <LoginForm /> */}
     {/* <SecretMessage /> */}
-    <Lifecycle />
+    {/* <Lifecycle /> */}
+    <Quiz />
 
   </React.StrictMode>
 );
