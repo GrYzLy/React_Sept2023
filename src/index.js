@@ -8,6 +8,7 @@ import AppArrow from './AppArrow';
 import Greetings from './Greetings/Greetings';
 import Counter from './Counter/Counter';
 import LoginForm from './LoginForm/LoginForm';
+import SecretMessage from './SecretMessage/SecretMessage';
 
 
 
@@ -22,8 +23,9 @@ root.render(
     {/* <Greetings name="Bartosz" age="40" />
     <Greetings name="Jan" /> */}
     {/* <Counter /> */}
-    <LoginForm />
-    
+    {/* <LoginForm /> */}
+    <SecretMessage />
+
   </React.StrictMode>
 );
 

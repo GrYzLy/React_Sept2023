@@ -90,7 +90,7 @@ class LoginForm extends Component {
         
         return (
             <div>
-                <h1>LoginForm</h1>
+                <h1>LoginForm2</h1>
                 Username : <input id="username" type="text" onBlur={this.validateUsernameOnBlur.bind(this)}/><br />
                 Password : <input type="text" onBlur={this.validatePasswordOnBlur}/><br />
                 Password confirmation : <input type="text" onBlur={this.validatePasswordConfirmationOnBlur.bind(this)}/><br />
