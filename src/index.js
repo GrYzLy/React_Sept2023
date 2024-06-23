@@ -11,7 +11,7 @@ import LoginForm from './LoginForm/LoginForm';
 import SecretMessage from './SecretMessage/SecretMessage';
 import Lifecycle from './Lifecycle/Lifecycle';
 import Quiz from './Quiz/Quiz';
-
+import RouterReact from './Routing/RouterReact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +27,9 @@ root.render(
     {/* <LoginForm /> */}
     {/* <SecretMessage /> */}
     {/* <Lifecycle /> */}
-    <Quiz />
+    {/* <Quiz /> */}
+    <RouterReact />
+
 
   </React.StrictMode>
 );
